@@ -1,0 +1,114 @@
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <title>Nuclear Zero</title>
+    <!-- CSS  -->
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu|Roboto:400,500|Doppio+One' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu|Roboto:400,500|Doppio+One|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu|Roboto:400,500|Doppio+One|Open+Sans+Condensed:300|Oswald' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+    <!-- JS -->
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header id="header">
+        <span><a class="nav-trig">☰</a></span>
+        <h1><img  id='logo'src="img/logo.png" height="50px"/>-CLEAR IT ALL</h1>
+        <h2>TOWARDS A 100% NUCLEAR WEAPON-FREE WORLD</h2>
+            
+        <div id="tagline">START WITH A TOUR OF THE WORLD'S NUCLEAR PROGRAMMES AND POLICY</div>
+    </header>
+    <nav>
+            <ul>
+                <li><a  class='tag' data-relId='more-info'><span class='glyphicon glyphicon-info-sign'></span> LEARN MORE</a></li>
+                <li><a  class='tag' data-relId='map' ><span class='glyphicon glyphicon-globe'></span> EXPLORE</a></li>
+                <li><a  class='tag' data-relId='get-involved'><span class='glyphicon glyphicon-bullhorn'></span> TAKE ACTION</a></li>
+            </ul>
+    </nav> 
+    <section>    
+        <div id="map" class='active'>
+            <div id='map_overlay'></div>
+        </div>
+        <div id="more-info" style="display:none">
+            <div class="container">
+                <h1>MORE INFORMATION</h1>
+                <p>Learn more about the science, history and policy of nuclear weapons.</p>
+                <div class="row">
+
+                    <div class="col-6 col-sm-6 col-lg-4">
+                        <header><h3>Nuclear Threat Initiative</h3></header>
+                        <p>The Nuclear Threat Initiative (NTI) is a nonprofit, nonpartisan organization with a mission to strengthen global security by reducing the risk of use and preventing the spread of nuclear, biological, and chemical weapons and to work to build the trust, transparency, and security that are preconditions to the ultimate fulfillment of the Non-Proliferation Treaty's goals and ambitions.</p>
+                        <h5 class='btn btn-default'><a href="http://www.nti.org/" target="_blank">MORE..</a><h5>
+                    </div>
+
+                    <div class="col-md-6 col-md-6">
+                        <header><h3>Bulletin of the Atomic Scientists</h3></header>
+                        <p>For more than 50 years the Bulletin of the Atomic Scientists has reported on international affairs, public policy, peace issues, and global conflict.</p>
+                        <h5 class='btn btn-default'><a href="http://thebulletin.org/" target="_blank">MORE..</a></h5>
+                    </div>              
+
+                </div>
+            </div>
+        </div>
+
+        <div id="get-involved" style="display:none">
+            <div class="container">
+                <h1>GET INVOLVED</h1>
+                <p>Find out what you can do to make your voice heard.</p>
+                <div class="row">
+                    <div class="col-md-4 col-md-4 col-md-4">
+                       <header> <h3>Global Zero</h3></header>
+                        <p>Global Zero is an international non-partisan group of 300 world leaders dedicated to achieving the elimination of nuclear weapons.The Global Zero campaign works toward building an international consensus and a sustained global movement of leaders and citizens for the elimination of nuclear weapons.</p>
+                        <h5 class='btn btn-default'><a href="http://www.globalzero.org/" target="_blank">MORE..</a></h5>
+                    </div>
+                    <div class="col-md-4 col-md-4 col-md-4">
+                        <header><h3>International Campaign to Abolish Nuclear Weapons: ICAN</h3></header>
+                        <p>The International Campaign to Abolish Nuclear Weapons (ICAN) is a global civil society coalition working to mobilize people in all countries to inspire, persuade and pressure their governments to initiate and support negotiations for a treaty banning nuclear weapons.</p>
+                         <h5 class='btn btn-default'><a href="http://www.icanw.org/" target="_blank">MORE..</a></h5>
+                    </div>
+
+                    <div class="col-4 col-md-4 col-md-4">
+                        <header><h3>Mayors for Peace</h3></header>
+                        <p>The Mayors for Peace is composed of cities around the world that have formally expressed support for the program to promote the solidarity of cities toward the total abolition of nuclear weapons.</p>
+                        <h5 class='btn btn-default'><a href="http://www.mayorsforpeace.org/english/index.html" target="_blank">MORE..</a></h5>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-4 col-md-4 col-md-4">
+                        <header><h3>The Atom Project</h3></header>
+                        <p>The ATOM Project is committed to stopping nuclear weapons testing as well as to build greater awareness about nuclear disarmament, global nuclear arsenals, and nuclear weapons policy. Sign the petition today to stop nuclear weapons testing.</p>
+                        <h5 class='btn btn-default'><a href="http://www.theatomproject.org/en/" target="_blank">MORE..</a></h5>
+                     </div>
+
+                    <div class="col-4 col-md-4 col-md-4">
+                        <header><h3>Target Nuclear Weapons</h3></header>
+                        <p>Engaging young people to spread the word about the humanitarian consequences of the use of nuclear weapons. </p>
+                        <h5 class='btn btn-default'><a href="http://targetnuclearweapons.org.au/" target="_blank">MORE..</a></h5>
+                    </div>
+
+
+                    <div class="col-4 col-md-4 col-md-4">
+                        <header><h3>Parliamentarians for Nuclear Non-Proliferation and Disarmament</h3></header>
+                        <p>PNND is a non-partisan forum for parliamentarians nationally and internationally to share resources and information, develop cooperative strategies and engage in nuclear nonproliferation and disarmament issues, initiatives and arenas.</p>
+                        <h5 class='btn btn-default'><a href="http://www.pnnd.org/" target="_blank">MORE..</a></h5>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section> 
+ 	<footer>
+        <p>&copy; Spirals 2014</p>
+    </footer><!-- end of footer-->
+    <script src='map/worldcountries.js'></script>
+    <script src='js/leaflet-omnivore.js'></script>
+    <script src='js/init.js'></script>
+</body>
+</html>
